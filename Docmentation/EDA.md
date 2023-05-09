@@ -12,7 +12,7 @@ Saya ingin melihat banyak data dari label yang saya miliki, dengan bantuan seabo
 0  =  73225 </br>
 1  =  56262
 
-![countLabel]([image/EDA/count_label.png](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/count_label.png))
+![countLabel](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/count_label.png)
 
 Di dapati bahwa label `0` memiliki jumlah yang lebih banyak ketimbang label `1`, tapi menurut saya data tersebut masih belum termasuk data `imbalance` karena label tersebut tidak terlalu jomplang sekali dan semestinya mesin masih bisa mencari pola dari data tersebut.
 
