@@ -20,7 +20,7 @@ Di dapati bahwa label `0` memiliki jumlah yang lebih banyak ketimbang label `1`,
 
 Di sini saya ingin melihat rentang umur berapa sampai berapa yang memiliki tingkat puas atau tidak puas paling tinggi dan rendah pada data kita. Atau kita bisa sebut Age vs Label.
 
-![ageVSlabel](image/EDA/age_with_label.png)
+![ageVSlabel](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/age_with_label.png)
 
 Jika kita melihat dari grafik di atas bahwa kebanyakan orang yang berumur di bawah 30 tahun cenderung tidak puas terhadap maskapai penerbangan. Tapi dari usia 31-85 tahun justru kebanyakan dari penumpang merasa puas terhadap maskapai penerbangan.
 
@@ -34,7 +34,7 @@ Sebelumnya saya sudah melihat komparasi antara age dan label, sekarang saya menc
 
 Ketiga Class tersebut merupakan kategori yang di dalam fitur `Class`, sekarang saya coba melihatnya dalam bentuk grafik agar mudah di baca.
 
-![classVSlabel](image/EDA/class_for_label.png)
+![classVSlabel](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/class_for_label.png)
 
 Class yang digunakan dalam maskapai penerbangan sangat mempengaruhi tingkat kepuasan dari penumpang, Class Eco dan Eco Plus menjadi kelas yang memiliki tingkat ketidak puasan yang cukup tinggi, sedangkan Class Business hampir `60%` dari penumpang merasa puas.
 
@@ -49,8 +49,8 @@ Kita tau bahwa kategori Class terbagi menjadi 3, kemudian ada lagi yang namanya 
 
 Loyal berarti penumpang yang setia menggunakan layanan maskapai sedangkan Disloyal berarti sebaliknya. Di sini saya ingin melihat antara keduanya dengan visual agar mudah dalam membaca informasi dari kedua fitur tersebut. Serta juga kita akan melihat jumlah dari pengguna Class paling banyak,
 
-![classVScustomerType](image/EDA/class_for_custuomer_type.png)
-![countClass](image/EDA/count_class.png)
+![classVScustomerType](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/class_for_custuomer_type.png)
+![countClass](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/count_class.png)
 
 Dari ketiga Class kita tau bahwa ketiganya memiliki Loyal Customer lebih banyak daripada Disloyal, karena memang data yang kita miliki kebanyakan dilakukan kepada customer Loyal.
 
@@ -62,22 +62,22 @@ Mungkin dari segi kenyamanan yang di tawarkan tidak semewah Business dan harga y
 
 Saya juga melihat dari segi jarak tempuh penumpang terhadap Class yang digunakan nya,
 
-![classVSflightDistance](image/EDA/class_for_flightDistance.png)
+![classVSflightDistance](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/class_for_flightDistance.png)
 
 Bahkan jarak tempuh sangat mempengaruhi pemilihan Class pada Customer, kalau kita lihat Class Eco dan Eco Pluss rata-rata hanya untuk jarak tempuh yang relatif dekat. Namun jika jaraknya sudah sangat jauh, biasanya Customer memilih untuk membeli tiket Business karena kenyamanan dalam perjalanan jauh cukup penting.
 
 ## Type of Travel for Class
 
-![totVSclass](image/EDA/typeOfTravel_for_class.png)
+![totVSclass](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/typeOfTravel_for_class.png)
 
 - **Personal Travel** </br> Personal Travel sendiri merujuk pada tujuan perjalanan untuk pribadi atau liburan, kebanyakakan dari mereka yang Personal Travel hanya akan membeli Class Eco untuk mengirit biaya transportasi. Sedikit orang yang memilih Eco Plus apalagi memilih Class Business untuk perjalanan pribadi.
 - **Business Travel** </br> Business Travel merujuk pada tujuan perjalanan kepentingan bisnis. Dan sudah pasti jelas pada Business Travel Class yang dipilih adalah Business, namun juga ada Business Travel yang memilih untuk Class Eco, dan sangat sedikit untuk Eco Plus.
 
 ## Arrival Delay dan Depature Delay
 ### Arrival
-![arrivalDelay](image/EDA/arrivalDelay_for_label.png)
+![arrivalDelay](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/arrivalDelay_for_label.png)
 
-![depatureDelay](image/EDA/depatureDelay_for_label.png)
+![depatureDelay](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/depatureDelay_for_label.png)
 
 kalau kita lihat keduanya rata-rata keterlambatan maskapai itu di sekitar 14-15 Menit, dan ada beberapa maskapai yang keterlambatannya mencapai 1600 dalam Menit. Jika dilihat grafik di atas bagian kanan maka akan ada garis merah, yang sudah pasti jelas bahwa keterlambatan yang begitu lama sangat membuat customer merasa tidak puas.
 
@@ -94,7 +94,7 @@ Tingkat Rating
 - `4` Sangat Bagus
 - `5` Luar Biasa Bagus
 
-![rating](image/EDA/rating_service.png)
+![rating](https://raw.githubusercontent.com/AgufSamudra/Airlance-Passenger/main/image/EDA/rating_service.png)
 
 # Kesimpulan
 
