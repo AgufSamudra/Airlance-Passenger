@@ -25,7 +25,7 @@ ordinal_pipeline = Pipeline([
 ])
 ```
 
-Setelah data kami proses di tahap tersebut, baru kami bisa proses untuk tahap training. Algoritma yang kami gunakan adalah `XGBoost` dan mendapatkan akurasi yang cukup bagus, yaitu sama-sama di `96%` di tahap Training da Testing.
+Setelah data kami proses di tahap tersebut, baru kami bisa proses untuk tahap training. Algoritma yang kami gunakan adalah `XGBoost` dan mendapatkan akurasi yang cukup bagus, yaitu sama-sama di `96%` pada tahap Training dan Testing.
 
 ## Result
 
