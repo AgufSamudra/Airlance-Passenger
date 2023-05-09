@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediksi Kepuasan Penerbangan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Prediksi Kepuasan Penerbangan</h1>
+    <form method="POST" id="my-form">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br>
+        <label for="customer_type">Customer Type:</label>
+        <select id="customer_type" name="customer_type">
+            <option value="disloyal Customer">disloyal Customer</option>
+            <option value="Loyal Customer">Loyal Customer</option>
+        </select>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" max="200" required placeholder="5-85">
+        <br>
+        <label for="travel_type">Type of Travel:</label>
+        <select id="travel_type" name="travel_type">
+            <option value="Personal Travel">Personal Travel</option>
+            <option value="Business travel">Business travel</option>
+        </select>
+        <br>
+        <label for="class">Class:</label>
+        <select id="class" name="class">
+            <option value="Eco">Eco</option>
+            <option value="Eco Plus">Eco Plus</option>
+            <option value="Business">Business</option>
+        </select>
+        <br>
+        <label for="flight_distance">Flight Distance:</label>
+        <input type="number" id="flight_distance" name="flight_distance" min="1" max="5000" required placeholder="1-6000">
+        <br>
+        <label for="inflight_wifi">Inflight wifi service:</label>
+        <select id="inflight_wifi" name="inflight_wifi">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <label for="time_convenience">Departure/Arrival time convenient:</label>
+        <select id="time_convenience" name="time_convenience">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <label for="online_booking">Ease of Online booking:</label>
+        <select id="online_booking" name="online_booking">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <label for="food_and_drink">Food and drink:</label>
+        <select id="food_and_drink" name="food_and_drink">
+        	<option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+	    <label for="online_boarding">Online boarding:</label>
+	    <select id="online_boarding" name="online_boarding">
+	        <option value="0">0</option>
+	        <option value="1">1</option>
+	        <option value="2">2</option>
+	        <option value="3">3</option>
+	        <option value="4">4</option>
+	        <option value="5">5</option>
+	    </select>
+	    <br>
+	    <label for="seat_comfort">Seat comfort:</label>
+	    <select id="seat_comfort" name="seat_comfort">
+	        <option value="0">0</option>
+	        <option value="1">1</option>
+	        <option value="2">2</option>
+	        <option value="3">3</option>
+	        <option value="4">4</option>
+	        <option value="5">5</option>
+	    </select>
+	    <br>
+	    <label for="inflight_entertainment">Inflight entertainment:</label>
+	    <select id="inflight_entertainment" name="inflight_entertainment">
+	        <option value="0">0</option>
+	        <option value="1">1</option>
+	        <option value="2">2</option>
+	        <option value="3">3</option>
+	        <option value="4">4</option>
+	        <option value="5">5</option>
+	    </select>
+	    <br>
+	    <label for="on_board_service">On-board service:</label>
+	    <select id="on_board_service" name="on_board_service">
+	        <option value="0">0</option>
+	        <option value="1">1</option>
+	        <option value="2">2</option>
+	        <option value="3">3</option>
+	        <option value="4">4</option>
+	        <option value="5">5</option>
+	    </select>
+	    <br>
+	    <label for="checkin_service">Checkin service:</label>
+	    <select id="checkin_service" name="checkin_service">
+	        <option value="0">0</option>
+	        <option value="1">1</option>
+	        <option value="2">2</option>
+	        <option value="3">3</option>
+	        <option value="4">4</option>
+	        <option value="5">5</option>
+	    </select>
+	    <br>
+	    <label for="inflight_service">Inflight service:</label>
+	    <select id="inflight_service" name="inflight_service">
+	        <option value="0">0</option>
+	        <option value="1">1</option>
+	        <option value="2">2</option>
+	        <option value="3">3</option>
+	        <option value="4">4</option>
+	        <option value="5">5</option>
+	    </select>
+	    <br>
+	    <label for="cleanliness">Cleanliness:</label>
+	    <select id="cleanliness" name="cleanliness">
+	        <option value="0">0</option>
+	        <option value="1">1</option>
+	        <option value="2">2</option>
+	        <option value="3">3</option>
+	        <option value="4">4</option>
+	        <option value="5">5</option>
+	    </select>
+	    <br>
+        <label for="departure_delay">Departure Delay (Menit):</label>
+        <input type="number" id="departure_delay" name="departure_delay" min="0" max="2000" required placeholder="0-1650">
+        <br>
+        <label for="arrival_delay">Arrival Delay (Menit):</label>
+        <input type="number" id="arrival_delay" name="arrival_delay" min="0" max="2000" required placeholder="0-1650">
+        <br>
+        <center>
+        	<button type="submit" name="prediksi" title="Prediksi">Prediksi</button>
+        	<br>
+        	<br>
+        	<label id="result">RESULT</label>
+        	<script type="text/javascript">
+        		
+        		// Ambil elemen form dan label
+				const form = document.querySelector('#my-form');
+				const resultLabel = document.querySelector('#result');
+
+				// Ketika form di-submit
+				form.addEventListener('submit', async (event) => {
+				    // Hentikan event submit agar halaman tidak di-refresh
+				    event.preventDefault();
+				    
+				    // Kirim data ke server dan terima hasil prediksi
+				    const response = await fetch('/', {
+				        method: 'POST',
+				        body: new FormData(form)
+				    });
+				    
+				    const prediction = await response.text();
+				    
+				    // Ubah isi label dengan hasil prediksi
+				    resultLabel.textContent = prediction;
+				});
+
+        	</script>
+
+        </center>
+    </form>
+</body>
+</html>

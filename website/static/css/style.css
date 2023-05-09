@@ -1,0 +1,100 @@
+/* styling for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+}
+
+/* styling for h1 */
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* styling for form */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* styling for label */
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* styling for input */
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+/* styling for select */
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+/* styling for submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* styling for option */
+option {
+  color: #555;
+}
+
+/* styling for button */
+button[name="prediksi"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* styling for button when hovered */
+button[name="prediksi"]:hover {
+  background-color: #3e8e41;
+}
+
+/* styling for button when active (clicked) */
+button[name="prediksi"]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#result {
+  display: block;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  color: #4CAF50;
+}
