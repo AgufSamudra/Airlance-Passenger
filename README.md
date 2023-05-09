@@ -37,6 +37,6 @@ Hasilnya adalah berupa website sederhana yang memanfaatkan ML untuk memprediksi 
 # Link
 Kami juga sediakan link shorcut untuk langsung melihat inti projek ini,
 
-[Exploratory Data Analysis](https://github.com/AgufSamudra/Airlance-Passenger/blob/main/Docmentation/EDA.md)
-[Pipeline](https://github.com/AgufSamudra/Airlance-Passenger/blob/main/Phase%205%20-%20Pipeline%20Testing.ipynb)
-[Last Experiment](https://github.com/AgufSamudra/Airlance-Passenger/blob/main/Docmentation/Doc%20Phase%203.md)
+[Exploratory Data Analysis](https://github.com/AgufSamudra/Airlance-Passenger/blob/main/Docmentation/EDA.md)<br>
+[Pipeline](https://github.com/AgufSamudra/Airlance-Passenger/blob/main/Phase%205%20-%20Pipeline%20Testing.ipynb)<br>
+[Last Experiment](https://github.com/AgufSamudra/Airlance-Passenger/blob/main/Docmentation/Doc%20Phase%203.md)<br>
